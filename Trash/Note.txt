@@ -1,0 +1,4 @@
+This file contain stuff just don't use in the website, everything in this 
+folder cannot be used anywhere outside this folder.
+Most of the stuff here are incompleted or have broken beyond repair
+Have fun!

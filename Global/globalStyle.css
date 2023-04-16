@@ -1,0 +1,50 @@
+* {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    /* Don't touch me */
+    min-width: 100%;
+    min-height: 100%;
+}
+#navBar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navBarButton {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+
+.navBarButton:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+.navBarButton:active {
+    background-color: rgb(126, 126, 126);
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+#websiteTitle {
+    text-decoration: none;
+}
+#title {
+    padding: 20px 0px 20px 20px
+}

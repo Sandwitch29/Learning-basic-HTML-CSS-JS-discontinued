@@ -1,0 +1,92 @@
+.grid {
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    aspect-ratio: 3 / 2;
+}
+
+
+
+.hidden {
+    color: rgba(0, 0, 0, 0);
+    background-color: black !important;
+}
+
+.revealed {
+    color: blue;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.bomb {
+    background-color: red;
+}
+
+.flagged {
+    color: white !important;
+    background-color: darkorchid !important;
+}
+
+#gridBoard {
+    padding: 10px;
+    background-color: grey;
+    table-layout: fixed;
+}
+
+#portfolioContainer {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 10px solid red;
+}
+
+.diffButton {
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    margin: 5px;
+    border: 0px;
+}
+
+#newGame {
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: grey;
+    border-color: whitesmoke;
+    color: black;
+    margin: 5px;
+    border: 0px;
+}
+
+.diffButton:focus {
+    background-color: aqua;
+    color: black;
+}
+
+#controlBar {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#playZone {
+    background-color: white;
+}
+
+.display {
+    color: black;
+    background-color: white;
+}
+
+#aboutSection {
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+#playZone{
+    background-color: white;
+}

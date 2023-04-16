@@ -1,0 +1,127 @@
+.grid {
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#gridBoard {
+    padding: 10px;
+    background-color: grey;
+    table-layout: fixed;
+}
+
+.snakeHead {
+    background-color: yellow;
+}
+
+.snakeBody {
+    background-color: green;
+}
+
+.food {
+    background-color: orange;
+}
+
+.bigFood {
+    background-color: red;
+}
+
+#portfolioContainer {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 10px solid red;
+}
+
+.diffButton {
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    margin: 5px;
+    border: 0px;
+}
+
+#newGame {
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: grey;
+    border-color: whitesmoke;
+    color: black;
+    margin: 5px;
+    border: 0px;
+}
+
+.diffButton:focus {
+    background-color: aqua;
+    color: black;
+}
+
+#controlBar {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#playZone {
+    background-color: white;
+}
+
+.display {
+    color: black;
+    background-color: white;
+}
+
+#aboutSection {
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+
+#buttonContainer>[type|="button"] {
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    margin: 5px;
+    border: 0px;
+}
+
+#buttonContainer {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#bigFoodBarBackground {
+    background-color: gray;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+}
+
+#bigFoodBar {
+    background-color: red;
+    display: flex;
+    height: 100%;
+}
+
+#infoDisplay {
+    color: black;
+    background-color: white;
+}
+.disabled{
+    visibility: hidden;
+}
+.slideContainer{
+    background-color: white;
+    color: black    ;
+}

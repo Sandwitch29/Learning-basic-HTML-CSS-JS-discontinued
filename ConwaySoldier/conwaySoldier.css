@@ -1,0 +1,15 @@
+.grid {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+
+.piece {
+    background-color: yellow
+}
+.selected {
+    background-color: yellowgreen;
+}
+.target {
+    background-color: aqua;
+}

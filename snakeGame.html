@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Global/globalStyle.css">
+    <link rel="stylesheet" href="/SnakeGame/snakeGame.css">
+</head>
+
+<body onkeypress="KeyPressCheck(event)">
+    <a href="/index.html" class="left" id="websiteTitle">
+        <h1 id="title">My website</h1>
+    </a>
+    <div id="portfolioContainer">
+        <div id="playZone">
+            <div id="infoDisplay">
+                <div id="scoreDisplay" class="display">Score: 0</div>
+                <div id="bigFoodBarBackground" class="disabled">
+                    <div id="bigFoodBar"></div>
+                </div>
+            </div>
+            <table id="gridBoard"></table>
+        </div>
+        <div id="buttonContainer">
+            <div class="slideContainer">
+                <input type="range" min="1" max="10" value="1" class="slider" id="diffSlider">
+              </div>
+            <input type="button" value="Play" id="play">
+            <input type="button" value="New game" id="newGame">
+        </div>
+    </div>
+    <div id="aboutSection">
+        <h1 class="center">Game of life</h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum voluptates cupiditate soluta exercitationem
+        dolor eaque quis eos saepe. Commodi temporibus tempora voluptatum provident ea. In facere at id veniam ea?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam odio aliquam, voluptatum labore molestias non
+        quaerat architecto expedita natus. Iste illum officiis ut explicabo a, eum accusamus saepe exercitationem
+        laborum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum ipsam illo eos beatae provident?
+        Necessitatibus cum odio corporis natus, quidem corrupti harum eius aperiam sit dicta at dolore fugit officiis!
+
+    </div>
+
+</body>
+<script src="./Global/globalScript.js"></script>
+<script src="/SnakeGame/snakeGame.js"></script>
+
+</html>
